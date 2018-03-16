@@ -11,9 +11,10 @@ usage
 
 examples
 --------
-    "./jbripper.py user pass spotify:track:52xaypL0Kjzk0ngwv3oBPR" creates "Beat It.mp3" file
-    "./jbripper.py user pass spotify:user:[user]:playlist:7HC9PMdSbwGBBn3EVTaCNx rips entire playlist
-
+```bash
+./jbripper.py user pass spotify:track:52xaypL0Kjzk0ngwv3oBPR # creates "Beat It.mp3" file
+./jbripper.py user pass spotify:user:[user]:playlist:7HC9PMdSbwGBBn3EVTaCNx # rips entire playlist
+```
 features
 --------
 * real-time VBR ripping from spotify PCM stream
